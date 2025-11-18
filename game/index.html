@@ -4,11 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Electric Man 2</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Use your existing portfolio CSS -->
   <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  <style>
+    body { 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      min-height: 100vh; 
+      background: var(--bg); 
+      color: var(--text); 
+      font-family: Inter, sans-serif; 
+    }
+    #player { 
+      max-width: 600px; 
+      width: 100%; 
+      border: 1px solid rgba(100,181,255,0.25); 
+      border-radius: 12px; 
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4); 
+      padding: 16px; 
+      background: linear-gradient(180deg, var(--panel), var(--panel-2)); 
+      text-align: center;
+    }
+    ruffle-player { 
+      width: 100%; 
+      height: 480px; 
+      border-radius: 8px; 
+      margin-top: 12px; 
+    }
+    h1 { font-size: 24px; margin-bottom: 8px; }
+    p { font-size: 14px; color: var(--muted); }
+  </style>
 </head>
 <body>
-  <h1>Electric Man 2</h1>
   <div id="player">
+    <h1>Electric Man 2</h1>
+    <p>Click below to play the game.</p>
     <ruffle-player src="ElectricMan2.swf"></ruffle-player>
   </div>
 </body>

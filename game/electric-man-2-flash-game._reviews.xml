@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reviews itemIdentifier="electric-man-2-flash-game.">
+  <review>
+    <reviewtitle>OMG</reviewtitle>
+    <reviewbody>NOSTALGIA</reviewbody>
+    <stars>5</stars>
+    <reviewer>archivesoftech</reviewer>
+    <reviewdate>2024-03-19 18:42:37</reviewdate>
+    <createdate>2024-03-19 18:42:37</createdate>
+    <reviewer_itemname>@geodec29</reviewer_itemname>
+  </review>
+  <review>
+    <reviewtitle>When I finish the tutorial i just get a black screen and i can't do anything. please fix.</reviewtitle>
+    <reviewbody>help.</reviewbody>
+    <stars>0</stars>
+    <reviewer>Tiny Smore</reviewer>
+    <reviewdate>2025-11-16 18:51:06</reviewdate>
+    <createdate>2025-11-16 18:51:06</createdate>
+    <reviewer_itemname>@tiny_smore</reviewer_itemname>
+  </review>
+  <info>
+    <num_reviews>2</num_reviews>
+    <avg_rating>5.00</avg_rating>
+  </info>
+</reviews>
